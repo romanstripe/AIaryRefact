@@ -1,0 +1,155 @@
+/* ===== MUI CssVarsProvider compatible tokens in global.css ===== */
+
+/* Light scheme */
+:root {
+  /* Palette */
+  --mui-palette-primary-main: oklch(0.6 0.16 160);
+  --mui-palette-primary-contrastText: oklch(1 0 0);
+
+  --mui-palette-secondary-main: oklch(0.45 0.01 240);
+  --mui-palette-secondary-contrastText: oklch(1 0 0);
+
+  --mui-palette-error-main: oklch(0.6 0.2 25);
+  --mui-palette-error-contrastText: oklch(1 0 0);
+
+  --mui-palette-success-main: oklch(0.65 0.18 145);
+  --mui-palette-info-main: oklch(0.5 0.18 170);
+  --mui-palette-warning-main: oklch(0.7 0.12 135);
+
+  --mui-palette-text-primary: oklch(0.3 0.01 240);
+  --mui-palette-text-secondary: oklch(0.45 0.01 240);
+  --mui-palette-divider: oklch(0.9 0.005 240);
+
+  --mui-palette-background-default: oklch(1 0 0); /* --background */
+  --mui-palette-background-paper: oklch(0.99 0.02 140); /* --card / popover */
+
+  /* Common / misc */
+  --mui-palette-common-white: oklch(1 0 0);
+  --mui-palette-common-black: oklch(0.15 0.01 240);
+
+  /* Shape */
+  --mui-shape-borderRadius: 0.5rem; /* --radius */
+
+  /* Focus ring (custom helper) */
+  --app-ring: oklch(0.6 0.16 160 / 0.3);
+
+  /* Extra tokens mapped from your theme (custom) */
+  --app-accent: oklch(0.65 0.18 145);
+  --app-accent-contrast: oklch(1 0 0);
+  --app-muted-bg: oklch(0.99 0.02 140);
+  --app-muted-fg: oklch(0.3 0.01 240);
+  --app-input-bg: oklch(1 0 0);
+  --app-border: oklch(0.9 0.005 240);
+
+  /* Charts (custom) */
+  --app-chart-1: oklch(0.6 0.16 160);
+  --app-chart-2: oklch(0.65 0.18 145);
+  --app-chart-3: oklch(0.55 0.14 155);
+  --app-chart-4: oklch(0.7 0.12 135);
+  --app-chart-5: oklch(0.5 0.18 170);
+
+  /* Sidebar (custom) */
+  --app-sidebar-bg: oklch(1 0 0);
+  --app-sidebar-fg: oklch(0.3 0.01 240);
+  --app-sidebar-primary: oklch(0.6 0.16 160);
+  --app-sidebar-primary-contrast: oklch(1 0 0);
+  --app-sidebar-accent: oklch(0.65 0.18 145);
+  --app-sidebar-accent-contrast: oklch(1 0 0);
+  --app-sidebar-border: oklch(0.9 0.005 240);
+  --app-sidebar-ring: oklch(0.6 0.16 160 / 0.2);
+
+  /* Fonts */
+  --mui-fontFamily: "Open Sans", sans-serif;
+  --app-font-heading: "Work Sans", sans-serif;
+}
+
+/* Dark scheme */
+[data-mui-color-scheme="dark"] {
+  --mui-palette-primary-main: oklch(0.65 0.18 145);
+  --mui-palette-primary-contrastText: oklch(0.15 0.01 240);
+
+  --mui-palette-secondary-main: oklch(0.25 0.01 240);
+  --mui-palette-secondary-contrastText: oklch(0.95 0.01 85);
+
+  --mui-palette-error-main: oklch(0.5 0.2 25);
+  --mui-palette-error-contrastText: oklch(0.95 0.01 85);
+
+  --mui-palette-success-main: oklch(0.5 0.2 160);
+  --mui-palette-info-main: oklch(0.5 0.2 170);
+  --mui-palette-warning-main: oklch(0.65 0.12 135);
+
+  --mui-palette-text-primary: oklch(0.95 0.01 85);
+  --mui-palette-text-secondary: oklch(0.65 0.01 240);
+  --mui-palette-divider: oklch(0.25 0.01 240);
+
+  --mui-palette-background-default: oklch(0.15 0.01 240); /* --background */
+  --mui-palette-background-paper: oklch(0.18 0.01 240); /* --card / popover */
+
+  --mui-palette-common-white: oklch(0.95 0.01 85);
+  --mui-palette-common-black: oklch(0.15 0.01 240);
+
+  --mui-shape-borderRadius: 0.5rem;
+
+  --app-ring: oklch(0.65 0.18 145 / 0.3);
+
+  --app-accent: oklch(0.25 0.01 240);
+  --app-accent-contrast: oklch(0.95 0.01 85);
+  --app-muted-bg: oklch(0.25 0.01 240);
+  --app-muted-fg: oklch(0.65 0.01 240);
+  --app-input-bg: oklch(0.25 0.01 240);
+  --app-border: oklch(0.25 0.01 240);
+
+  --app-chart-1: oklch(0.5 0.2 160);
+  --app-chart-2: oklch(0.6 0.15 145);
+  --app-chart-3: oklch(0.55 0.18 155);
+  --app-chart-4: oklch(0.65 0.12 135);
+  --app-chart-5: oklch(0.5 0.2 170);
+
+  --app-sidebar-bg: oklch(0.2 0.01 240);
+  --app-sidebar-fg: oklch(0.95 0.01 85);
+  --app-sidebar-primary: oklch(0.5 0.2 160);
+  --app-sidebar-primary-contrast: oklch(0.95 0.01 85);
+  --app-sidebar-accent: oklch(0.25 0.01 240);
+  --app-sidebar-accent-contrast: oklch(0.95 0.01 85);
+  --app-sidebar-border: oklch(0.25 0.01 240);
+  --app-sidebar-ring: oklch(0.4 0.01 240);
+
+  --mui-fontFamily: "Open Sans", sans-serif;
+  --app-font-heading: "Work Sans", sans-serif;
+}
+
+/* ===== Optional base resets to mirror your Tailwind base layer ===== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background: var(--mui-palette-background-default);
+  color: var(--mui-palette-text-primary);
+  font-family: var(--mui-fontFamily);
+}
+
+/* Example utility using the custom ring token */
+:where(button, [role="button"], .focus-ring) {
+  outline-color: color-mix(in oklab, var(--app-ring) 100%, transparent);
+  outline-offset: 2px;
+  outline-width: 2px;
+  outline-style: solid;
+}
+
+/* Headings may use the heading font if desired */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--app-font-heading);
+}

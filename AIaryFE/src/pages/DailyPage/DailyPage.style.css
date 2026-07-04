@@ -1,0 +1,8 @@
+.daily-page {
+  min-height: 100vh;
+  padding: 0rem 6rem;
+}
+
+.daily-color {
+  background-color: var(--mui-palette-background-paper);
+}
