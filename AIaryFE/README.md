@@ -5,7 +5,7 @@
 > **AI + Diary = Aiary**  
 > 현지 표현을 사용해서 영어 일기를 쓰고 싶은 사람들을 위한 AI 기반 영어 학습 플랫폼
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-aiary.netlify.app-60A5FA?style=for-the-badge&logo=netlify)](https://aiary.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-aiary.vercel.app-60A5FA?style=for-the-badge&logo=netlify)]((https://aiaryaidiary.vercel.app/))
 
 </div>
 
